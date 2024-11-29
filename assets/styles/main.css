@@ -22,10 +22,18 @@
     width: 1170px;
   }
 }
+:root {
+  --Pixel-White: #dbdbdb;
+  --black-0: #00000080;
+  --black-1:#0000001A;
+  --white:#fff;
+  --Boyzone: #2d8dd5;
+  --Dreamy-Cloud:#E5E7EB;
+}
 a {
   text-decoration: none;
   text-transform: capitalize;
 }
-img{
+img {
   width: 100%;
 }
