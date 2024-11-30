@@ -89,18 +89,43 @@ header .container nav ul li .search input::placeholder {
   font-family: "Roboto", sans-serif;
   color: var(--black-0);
 }
-header .container nav ul label input {
+@media (max-width: 1200px) {
+  header .container nav ul {
+    display: none;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    padding: 15px;
+  }
+  header nav input:checked ~ ul {
+    display: block;
+  }
+  header nav ul li {
+    border: 1px solid var(--black-1);
+    border-radius: 50px;
+    margin-bottom: 10px;
+    background-color: var(--Pixel-White);
+  }
+  header .container nav ul li .search {
+    border: none;
+    padding: 0;
+  }
+  header .container nav ul li .search input {
+    background-color: inherit;
+    margin-top: 5px;
+  }
+  header .container nav ul li .search input::placeholder {
+    color: var(--black);
+  }
+}
+header .container nav .menu img {
+  cursor: pointer;
+}
+header .container nav input {
   appearance: none;
 }
-header .container nav ul label img {
-  width: 50px;
-  display: none;
-}
-@media (max-width: 1200px) {
-  header .container nav {
+@media (min-width: 1201px) {
+  header nav .menu {
     display: none;
-  }
-  header .container nav ul label img {
-    display: block;
   }
 }
