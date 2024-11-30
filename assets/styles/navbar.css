@@ -34,10 +34,8 @@ a {
   text-transform: capitalize;
 }
 header {
-  border: 1px solid;
+  border-bottom: 1px solid;
   margin-top: 2px;
-  position: sticky;
-  top: 0;
 }
 header .container {
   display: flex;
