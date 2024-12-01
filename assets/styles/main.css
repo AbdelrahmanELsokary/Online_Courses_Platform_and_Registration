@@ -101,3 +101,16 @@ a {
   line-height: 30px;
   padding-top: 20px;
 }
+.our_learners_work .container {
+  text-align: center;
+  padding-top: 100px;
+}
+.our_learners_work .container h2 {
+  font-size: 48px;
+  font-weight: 400;
+  font-family: "Poppins", serif;
+}
+.our_learners_work .container img {
+  width: 240px;
+  margin: 20px;
+}
