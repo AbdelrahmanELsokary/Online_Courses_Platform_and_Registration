@@ -123,6 +123,7 @@ footer {
 footer .container .products {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 footer .container .products .product {
   padding: 20px;
@@ -170,6 +171,7 @@ footer .container .products .subscribe input::placeholder {
   font-family: "Roboto", sans-serif;
 }
 footer .container .products .subscribe .submit {
+  cursor: pointer;
   background-color: var(--Boyzone);
   color: var(--white);
   border: 1px solid var(--black);
