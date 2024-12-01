@@ -104,6 +104,9 @@ header .container nav ul li .search input::placeholder {
     margin-bottom: 10px;
     background-color: var(--Pixel-White);
   }
+  header nav ul li a span {
+    color: #000;
+  }
   header .container nav ul li .search {
     border: none;
     padding: 0;

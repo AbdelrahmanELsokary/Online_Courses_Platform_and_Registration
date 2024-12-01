@@ -52,7 +52,6 @@ a {
   font-size: 45px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
-  width: 600px;
 }
 .hero .container .link_hero {
   padding: 20px 0 50px 0;
@@ -68,4 +67,37 @@ a {
   margin-right: 20px;
   padding: 15px;
   box-shadow: 0px 6px 13px 0px var(--black-1);
+}
+.about .container .banner img {
+  width: 100%;
+  margin-top: 60px;
+  border-radius: 50px;
+  box-shadow: 10px 15px 39px 0px var(--black-1);
+}
+.about .container .about_us {
+  display: flex;
+  padding-top: 30px;
+}
+.about .container .about_us .services {
+  background-color: var(--Pixel-White);
+  text-align: center;
+  border-radius: 50px;
+  box-shadow: -1px 14px 31px 0px var(--black-1);
+  width: 389px;
+  height: 250px;
+  padding: 30px;
+  margin: 20px;
+}
+.about .container .about_us .services h3 {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  padding-top: 20px;
+}
+.about .container .about_us .services p {
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  line-height: 30px;
+  padding-top: 20px;
 }
