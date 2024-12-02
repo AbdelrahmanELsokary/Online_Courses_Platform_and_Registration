@@ -62,6 +62,9 @@ a {
   padding-bottom: 30px;
 }
 .hero .container input {
+  border: none;
+  outline: none;
+  border-radius: 6px;
   width: 360px;
   padding: 10px;
 }
@@ -76,8 +79,6 @@ a {
   font-family: "Roboto", sans-serif;
   background-color: var(--black);
   color: var(--white);
-  border: none;
-  border-radius: 8px;
   width: 240px;
   padding: 12px;
   margin-top: 25px;
