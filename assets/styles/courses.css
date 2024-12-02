@@ -145,6 +145,7 @@ a {
 .course_details .container {
   padding-top: 90px;
   display: flex;
+  flex-wrap: wrap;
 }
 .course_details h2 {
   font-size: 40px;
@@ -152,7 +153,24 @@ a {
   font-family: "Roboto", sans-serif;
   text-align: center;
 }
-.course_details .container .program_language .languge {
+.course_details .container span {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  padding: 10px;
+}
+.course_details .container .caption p {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  line-height: 24px;
+  padding: 10px;
+}
+.course_details .container .program_language {
+  width: 50%;
+}
+.course_details .container .program_language .languge,
+.languge_2 {
   display: flex;
   flex-wrap: wrap;
   border: 1px solid var(--black-1);
@@ -164,19 +182,23 @@ a {
 .course_details .container .program_language .languge .image_languge img {
   width: 120px;
 }
+.languge_2 img {
+  width: 120px;
+}
+.languge_2 {
+  width: 100%;
+  margin-top: 0;
+}
+.languge_2 .caption {
+  padding-top: 30px;
+}
 .course_details .container .program_language .languge .caption {
   padding-top: 10px;
 }
-.course_details .container .program_language .languge .caption span {
-  font-size: 20px;
-  font-weight: 500;
-  font-family: "Roboto", sans-serif;
-  padding: 10px;
-}
-.course_details .container .program_language .languge .caption p {
-  font-size: 16px;
-  font-weight: 400;
-  font-family: "Roboto", sans-serif;
-  line-height: 24px;
-  padding: 10px;
+@media (max-width: 1200px) {
+  .course_details .container .program_language .languge,
+  .languge_2 {
+    justify-content: center;
+    text-align: center;
+  }
 }
