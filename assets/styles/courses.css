@@ -202,3 +202,40 @@ a {
     text-align: center;
   }
 }
+.course_benefits .container {
+  padding-top: 100px;
+}
+.course_benefits .container h2 {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+.course_benefits .container .emogies,
+.emogies_2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 0 20px 0;
+}
+.course_benefits .container .emogies .emogy,
+.emogies_2 {
+  text-align: center;
+}
+.course_benefits .container .emogies .emogy,
+.emogies_2 h4 {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  padding: 10px;
+}
+.course_benefits .container .emogies .emogy,
+.emogies_2 p {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  color: var(--black-0);
+}
+.emogies_2 {
+  justify-content: space-around;
+  padding-top: 50px;
+}
