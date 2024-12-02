@@ -127,6 +127,9 @@ a {
   border-radius: 6px;
   overflow: hidden;
 }
+.explore_courses .container .instructores figure img{
+  width: 100%;
+}
 .explore_courses .container .instructores figure figcaption span {
   font-size: 16px;
   font-weight: 400;
