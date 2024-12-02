@@ -127,7 +127,7 @@ a {
   border-radius: 6px;
   overflow: hidden;
 }
-.explore_courses .container .instructores figure img{
+.explore_courses .container .instructores figure img {
   width: 100%;
 }
 .explore_courses .container .instructores figure figcaption span {
@@ -140,5 +140,43 @@ a {
   font-size: 20px;
   font-weight: 500;
   font-family: "Roboto", sans-serif;
+  padding: 10px;
+}
+.course_details .container {
+  padding-top: 90px;
+  display: flex;
+}
+.course_details h2 {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+.course_details .container .program_language .languge {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid var(--black-1);
+  border-radius: 6px;
+  overflow: hidden;
+  padding: 15px;
+  margin: 15px;
+}
+.course_details .container .program_language .languge .image_languge img {
+  width: 120px;
+}
+.course_details .container .program_language .languge .caption {
+  padding-top: 10px;
+}
+.course_details .container .program_language .languge .caption span {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  padding: 10px;
+}
+.course_details .container .program_language .languge .caption p {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  line-height: 24px;
   padding: 10px;
 }
