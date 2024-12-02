@@ -83,3 +83,59 @@ a {
   padding: 12px;
   margin-top: 25px;
 }
+.explore_courses .container {
+  padding-top: 40px;
+}
+.explore_courses .container h2 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+}
+.explore_courses .container .instructores {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  padding-top: 40px;
+}
+.explore_courses .container .instructores .instructor {
+  border: 1px solid var(--black-1);
+  border-radius: 6px;
+  overflow: hidden;
+  width: 340px;
+}
+.explore_courses .container .instructores .instructor img {
+  width: 100%;
+  height: 300px;
+  margin-bottom: 10px;
+}
+.explore_courses .container .instructores .instructor span {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  padding: 10px;
+}
+.explore_courses .container .instructores .instructor h3 {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  padding: 10px;
+}
+.explore_courses .container .instructores figure {
+  border: 1px solid var(--black-1);
+  border-radius: 6px;
+  overflow: hidden;
+}
+.explore_courses .container .instructores figure figcaption span {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  padding: 10px;
+}
+.explore_courses .container .instructores figure figcaption h3 {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  padding: 10px;
+}
