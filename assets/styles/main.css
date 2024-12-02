@@ -37,7 +37,7 @@ a {
   text-transform: capitalize;
 }
 .hero {
-  background-image: url(../images/hero.png);
+  background-image: url(../images/Home_Page/hero.webp);
   height: calc(100vh - 104px);
   background-repeat: no-repeat;
   background-size: cover;
