@@ -32,3 +32,53 @@ a {
   text-decoration: none;
   text-transform: capitalize;
 }
+.hero {
+  height: 45vh;
+  width: 100%;
+  background-image: url(../images/Courses_Page/hero.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.hero .container {
+  height: 45vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero .container h1 {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  color: var(--white);
+  padding-bottom: 30px;
+}
+.hero .container p {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  color: var(--white);
+  padding-bottom: 30px;
+}
+.hero .container input {
+  width: 360px;
+  padding: 10px;
+}
+.hero .container input::placeholder {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+.hero .container .submit {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  background-color: var(--black);
+  color: var(--white);
+  border: none;
+  border-radius: 8px;
+  width: 240px;
+  padding: 12px;
+  margin-top: 25px;
+}
