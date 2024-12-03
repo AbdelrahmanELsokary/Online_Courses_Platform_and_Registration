@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
   <link rel="stylesheet" href="assets/styles/navbar.css">
   <link rel="stylesheet" href="assets/styles/courses_form.css">
 </head>
+
 <body>
   <header>
     <div class="container">
@@ -28,8 +30,20 @@
   <main>
     <section class="personal_information">
       <div class="container">
+        <h1>Personal Information</h1>
+        <form>
+          <label for="username">Full Name </label>
+          <input type="text" placeholder="Enter your full name" id="username">
+          <label for="email">Email </label>
+          <input type="email" placeholder="Enter your email" id="email">
+          <label for="phone">Phone Number</label>
+          <input type="tel" placeholder="Enter your phone number" id="phone">
+          <label for="date_of_birth">Date of Birth</label>
+          <input type="text" placeholder="Select your date of birth" id="date_of_birth">
+        </form>
       </div>
     </section>
   </main>
 </body>
+
 </html>
