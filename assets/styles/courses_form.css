@@ -22,6 +22,15 @@
     width: 1170px;
   }
 }
+:root {
+  --Pixel-White: #dbdbdb;
+  --black: black;
+  --black-0: #00000080;
+  --black-1: #0000001a;
+  --white: #fff;
+  --Dreamy-Cloud: #e5e7eb;
+  --Glistening-Grey: #b1b5bb;
+}
 a {
   text-decoration: none;
   text-transform: capitalize;
