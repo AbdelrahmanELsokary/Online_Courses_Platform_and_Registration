@@ -35,3 +35,73 @@ a {
   text-decoration: none;
   text-transform: capitalize;
 }
+.personal_information .container {
+  padding-top: 50px;
+}
+.personal_information .container h1 {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+.personal_information .container form {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(470px, 470px));
+  gap: 40px;
+  padding-top: 50px;
+}
+.personal_information .container form label {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  line-height: 35px;
+}
+.personal_information .container form input {
+  border: 1px solid var(--black-1);
+  border-radius: 6px;
+  outline: none;
+  width: 100%;
+  padding: 10px;
+}
+.personal_information .container form input::placeholder {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+.personal_information .container .checked_gender {
+  padding-top: 40px;
+}
+.personal_information .container .checked_gender span {
+  font-style: 14px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+}
+.personal_information .container .checked_gender input {
+  appearance: none;
+  margin: 15px 0;
+}
+.personal_information .container .checked_gender label {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+  background-color: var(--black-1);
+  border-radius: 6px;
+  padding: 8px;
+}
+.personal_information .container .sumbit {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+.personal_information .container .sumbit input {
+  background-color: var(--black);
+  color: var(--white);
+  width: 240px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  
+  padding: 12px;
+}
