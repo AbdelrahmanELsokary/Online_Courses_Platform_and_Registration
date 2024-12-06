@@ -187,6 +187,7 @@ a {
 }
 .back_next input {
   border: 1px solid var(--black);
+  background-color: var(--white);
   width: 240px;
   border-radius: 8px;
   font-size: 16px;
@@ -198,4 +199,37 @@ a {
 .back_next .next {
   background-color: var(--black);
   color: var(--white);
+}
+.payment_details .container {
+  padding-top: 80px;
+}
+.payment_details .container h2 {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+.payment_details .container form {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(470px, 470px));
+  gap: 40px;
+  padding-top: 50px;
+}
+.payment_details .container form label {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  line-height: 35px;
+}
+.payment_details .container form input {
+  border: 1px solid var(--black-1);
+  border-radius: 6px;
+  outline: none;
+  width: 100%;
+  padding: 10px;
+}
+.payment_details .container form input::placeholder {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
 }
