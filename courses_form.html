@@ -5,6 +5,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Courses Form</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="assets/styles/navbar.css">
   <link rel="stylesheet" href="assets/styles/courses_form.css">
 </head>
@@ -45,13 +50,47 @@
           <span>Gender
           </span>
           <br>
-          <label for="male">Mail<input type="checkbox" id="male"></label>
+          <label for="male">Mail<input type="radio" name="gender" id="male"></label>
           </label>
-          <input type="checkbox" id="Femail"> <label for="Femail">Femail</label>
+          <input type="radio" id="Femail" name="gender"> <label for="Femail">Femail</label>
           </label>
-          <input type="checkbox" id="other"> <label for="other">Other</label>
+          <input type="radio" id="other" name="gender"> <label for="other">Other</label>
         </div>
         <div class="sumbit"><input type="submit" value="Next"></div>
+      </div>
+    </section>
+    <section class="courses_selection">
+      <div class="container">
+        <h2>Course Selection</h2>
+        <div class="courses_name">
+          <div class="lable_courses">
+            <span>Course Name
+            </span>
+            <br>
+            <label for="male">Course A<input type="radio" id="male" name="cours"></label>
+            </label>
+            <input type="radio" id="Femail" name="cours"> <label for="Femail">Course B</label>
+            </label>
+            <input type="radio" id="other" name="cours"> <label for="other">Course C</label>
+          </div>
+          <div class="input_course">
+            <label for="date">Preferred Start Date</label>
+            <input type="text" id="date" placeholder="Select your start date">
+          </div>
+        </div>
+        <div class="time">
+          <span>Preferred Time</span>
+          <br>
+          <label for="male">Morning<input type="radio" id="male" name="cours"></label>
+          </label>
+          <input type="radio" id="Femail" name="cours"> <label for="Femail">Afternoon</label>
+          </label>
+          <input type="radio" id="other" name="cours"> <label for="other">Evening</label>
+        </div>
+        <div class="back_next">
+          <input type="button" value="Back">
+          <input type="button" value="Next" class="next">
+        </div>
       </div>
     </section>
   </main>

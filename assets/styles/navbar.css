@@ -54,6 +54,10 @@ header .container .logo a {
   color: var(--black);
   padding-left: 15px;
 }
+header .container nav {
+  display: flex;
+  align-items: center;
+}
 header .container nav ul {
   list-style: none;
   display: flex;
