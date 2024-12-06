@@ -233,3 +233,82 @@ a {
   font-weight: 400;
   font-family: "Roboto", sans-serif;
 }
+.account_setup .container {
+  padding-top: 70px;
+}
+.account_setup .container h2 {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+.account_setup .container .information {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.account_setup .container .information .info_name {
+  width: 40%;
+}
+.account_setup .container .information .info_name label {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  line-height: 35px;
+}
+.account_setup .container .information .info_name input {
+  display: block;
+  border: 1px solid var(--black-1);
+  border-radius: 6px;
+  outline: none;
+  width: 100%;
+  padding: 10px;
+}
+.account_setup .container .information .password {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+.account_setup .container .information .password .password {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  line-height: 35px;
+}
+.account_setup .container .information .password .password {
+  display: block;
+  border: 1px solid var(--black-1);
+  border-radius: 6px;
+  outline: none;
+  width: 100%;
+  padding: 10px;
+}
+.account_setup .container .lable span {
+  display: block;
+  text-align: center;
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+.account_setup .container .information .password .lable {
+  background-color: aquamarine;
+  display: flex;
+}
+.account_setup .container .password input {
+  appearance: none;
+  width: 0;
+  padding: 0;
+}
+.account_setup .container .password label {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+  background-color: var(--black-1);
+  border-radius: 6px;
+  margin-top: 30px;
+  margin-left: 0;
+  padding: 8px;
+}
