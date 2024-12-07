@@ -42,11 +42,101 @@ body {
 .courses_selection .container .info {
   padding: 0 25px;
 }
-.courses_selection .container .info h1 {
+.container .info h1 {
   font-size: 40px;
   font-weight: 700;
 }
-.courses_selection .container .info p {
+.container .info p {
   font-size: 16px;
   font-weight: 400;
+}
+.courses_selection .container{
+  padding-top: 50px;
+}
+.courses_name {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 60px;
+}
+.container .courses_name span {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+.container .courses_name input {
+  appearance: none;
+  margin: 15px 0;
+}
+.container .time input {
+  appearance: none;
+  margin: 15px 0;
+}
+.container .courses_name .input_course label {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+}
+.container .courses_name .input_course input {
+  display: block;
+  border: none;
+  border-radius: 6px;
+  border: 1px solid var(--black-1);
+  width: 400px;
+  padding: 8px 12px;
+}
+.container .courses_name .input_course input::placeholder {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+.name label input {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+  background-color: var(--black-1);
+  border-radius: 6px;
+  padding: 8px;
+}
+.time {
+  padding-top: 30px;
+}
+.container .time label,
+.lable_courses label {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+  background-color: var(--black-1);
+  border-radius: 6px;
+  padding: 8px;
+}
+.container p {
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--black-0);
+  padding-top: 20px;
+}
+.container .input_course p{
+  padding-top: 0;
+}
+.container .back_next {
+  text-align: center;
+  padding-top: 50px;
+}
+.back_next input {
+  border: 1px solid var(--black);
+  background-color: var(--white);
+  width: 240px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  padding: 12px;
+  margin-left: 5px;
+}
+.back_next .next {
+  background-color: var(--black);
+  color: var(--white);
 }
