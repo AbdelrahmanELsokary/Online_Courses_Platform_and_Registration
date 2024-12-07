@@ -31,3 +31,12 @@
   --Dreamy-Cloud: #e5e7eb;
   --Glistening-Grey: #b1b5bb;
 }
+section .container {
+  height: calc(100vh - 90px);
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+section .container img {
+  width: 100%;
+}
