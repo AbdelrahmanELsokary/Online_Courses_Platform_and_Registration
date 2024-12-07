@@ -50,34 +50,32 @@ body {
   font-size: 16px;
   font-weight: 400;
 }
-.courses_selection .container{
-  padding-top: 50px;
+.start_date .container {
+  padding-top: 30px;
 }
-.courses_name {
+.start_date .container .courses_name {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   padding-top: 60px;
 }
-.container .courses_name span {
-  font-family: "Roboto", sans-serif;
+.start_date .container .courses_name span {
   font-size: 14px;
   font-weight: 500;
 }
-.container .courses_name input {
+.start_date .container .courses_name input {
   appearance: none;
   margin: 15px 0;
 }
-.container .time input {
+.start_date .container .time input {
   appearance: none;
   margin: 15px 0;
 }
-.container .courses_name .input_course label {
+.start_date .container .courses_name .input_course label {
   font-size: 14px;
   font-weight: 500;
-  font-family: "Roboto", sans-serif;
 }
-.container .courses_name .input_course input {
+.start_date .container .courses_name .input_course input {
   display: block;
   border: none;
   border-radius: 6px;
@@ -85,40 +83,37 @@ body {
   width: 400px;
   padding: 8px 12px;
 }
-.container .courses_name .input_course input::placeholder {
+.start_date .container .courses_name .input_course input::placeholder {
   font-size: 14px;
   font-weight: 400;
-  font-family: "Roboto", sans-serif;
 }
-.name label input {
+.start_date .container .name label input {
   font-size: 14px;
   font-weight: 400;
-  font-family: "Roboto", sans-serif;
   cursor: pointer;
   background-color: var(--black-1);
   border-radius: 6px;
   padding: 8px;
 }
-.time {
+.start_date .container .time {
   padding-top: 30px;
 }
-.container .time label,
+.start_date .container .time label,
 .lable_courses label {
   font-size: 14px;
   font-weight: 400;
-  font-family: "Roboto", sans-serif;
   cursor: pointer;
   background-color: var(--black-1);
   border-radius: 6px;
   padding: 8px;
 }
-.container p {
+.start_date .container p {
   font-size: 12px;
   font-weight: 400;
   color: var(--black-0);
   padding-top: 20px;
 }
-.container .input_course p{
+.container .input_course p {
   padding-top: 0;
 }
 .container .back_next {
@@ -131,12 +126,63 @@ body {
   width: 240px;
   border-radius: 8px;
   font-size: 16px;
+  cursor: pointer;
   font-weight: 500;
-  font-family: "Roboto", sans-serif;
   padding: 12px;
   margin-left: 5px;
 }
 .back_next .next {
   background-color: var(--black);
   color: var(--white);
+}
+.payment .container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 70px;
+}
+.payment .container h2 {
+  font-size: 40px;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+.payment .container form .titel {
+  font-size: 16px;
+  font-weight: 400;
+  padding-bottom: 30px;
+  color: var(--black);
+}
+.container form {
+  width: 50%;
+}
+.container form label {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  line-height: 35px;
+}
+.container form input {
+  border: 1px solid var(--black-1);
+  border-radius: 6px;
+  outline: none;
+  width: 100%;
+  padding: 10px;
+}
+.container form input::placeholder {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+.payment .container form p {
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--black-0);
+  padding-top: 5px;
+}
+.payment .container .image img{
+  width: 100%;
+}
+.payment .back_next {
+  text-align: center;
+  padding: 30px 0;
 }
