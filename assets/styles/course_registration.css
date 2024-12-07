@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  padding: 0 15px;
+  margin: auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+:root {
+  --Pixel-White: #dbdbdb;
+  --black: black;
+  --black-0: #00000080;
+  --black-1: #0000001a;
+  --white: #fff;
+  --Dreamy-Cloud: #e5e7eb;
+  --Glistening-Grey: #b1b5bb;
+}
