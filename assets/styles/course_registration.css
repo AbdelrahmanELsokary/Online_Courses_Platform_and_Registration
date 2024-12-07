@@ -31,3 +31,22 @@
   --Dreamy-Cloud: #e5e7eb;
   --Glistening-Grey: #b1b5bb;
 }
+body {
+  font-family: "Roboto", sans-serif;
+}
+.courses_selection .container {
+  display: flex;
+  align-items: center;
+  padding-top: 50px;
+}
+.courses_selection .container .info {
+  padding: 0 25px;
+}
+.courses_selection .container .info h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.courses_selection .container .info p {
+  font-size: 16px;
+  font-weight: 400;
+}
