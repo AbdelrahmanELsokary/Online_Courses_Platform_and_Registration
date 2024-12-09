@@ -211,7 +211,7 @@ a {
 }
 .payment_details .container form {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(470px, 470px));
+  grid-template-columns: repeat(auto-fill, minmax(470px, 1fr));
   gap: 40px;
   padding-top: 50px;
 }

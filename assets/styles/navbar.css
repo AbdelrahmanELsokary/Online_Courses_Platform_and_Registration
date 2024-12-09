@@ -36,6 +36,9 @@ a {
 header {
   border-bottom: 1px solid;
   margin-top: 2px;
+  position: sticky;
+  background-color: var(--Pixel-White);
+  top: 0;
 }
 header .container {
   display: flex;
@@ -84,6 +87,7 @@ header .container nav ul li .search img {
 header .container nav ul li .search input {
   border: none;
   outline: none;
+  background-color: inherit;
 }
 header .container nav ul li .search input::placeholder {
   font-size: 14px;
