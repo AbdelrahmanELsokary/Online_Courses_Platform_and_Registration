@@ -3,25 +3,30 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 .container {
   padding: 0 15px;
   margin: auto;
 }
+
 @media (min-width: 768px) {
   .container {
     width: 750px;
   }
 }
+
 @media (min-width: 992px) {
   .container {
     width: 970px;
   }
 }
+
 @media (min-width: 1200px) {
   .container {
     width: 1170px;
   }
 }
+
 :root {
   --Pixel-White: #dbdbdb;
   --black: black;
@@ -29,10 +34,12 @@
   --black-1: #0000001a;
   --white: #fff;
 }
+
 a {
   text-decoration: none;
   text-transform: capitalize;
 }
+
 header {
   border-bottom: 1px solid;
   margin-top: 2px;
@@ -40,16 +47,19 @@ header {
   background-color: var(--Pixel-White);
   top: 0;
 }
+
 header .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
 header .container .logo {
   display: flex;
   align-items: center;
   padding: 20px;
 }
+
 header .container .logo a {
   font-size: 26px;
   font-weight: 500;
@@ -57,45 +67,54 @@ header .container .logo a {
   color: var(--black);
   padding-left: 15px;
 }
+
 header .container nav {
   display: flex;
   align-items: center;
 }
+
 header .container nav ul {
   list-style: none;
   display: flex;
   align-items: center;
 }
+
 header .container nav ul li {
   padding: 20px 25px;
 }
+
 header .container nav ul li a {
   font-size: 16px;
   font-weight: 400;
   font-family: "Roboto", sans-serif;
   color: var(--black);
 }
+
 header .container nav ul li .search {
   display: flex;
   border: 1px solid var(--black-1);
   border-radius: 6px;
   padding: 10px;
 }
+
 header .container nav ul li .search img {
   cursor: pointer;
 }
+
 header .container nav ul li .search input {
   border: none;
   outline: none;
   background-color: inherit;
 }
+
 header .container nav ul li .search input::placeholder {
   font-size: 14px;
   font-weight: 400;
   font-family: "Roboto", sans-serif;
   color: var(--black-0);
 }
-@media (max-width: 1200px) {
+
+@media (max-width: 991px) {
   header .container nav ul {
     display: none;
     position: absolute;
@@ -103,38 +122,40 @@ header .container nav ul li .search input::placeholder {
     right: 0;
     padding: 15px;
   }
-  header nav input:checked ~ ul {
+
+  header .container nav ul.menu_open {
     display: block;
   }
+
   header nav ul li {
     border: 1px solid var(--black-1);
     border-radius: 50px;
     margin-bottom: 10px;
     background-color: var(--Pixel-White);
   }
+
   header nav ul li a span {
     color: #000;
   }
+
   header .container nav ul li .search {
     border: none;
     padding: 0;
   }
+
   header .container nav ul li .search input {
     background-color: inherit;
     margin-top: 5px;
   }
+
   header .container nav ul li .search input::placeholder {
     color: var(--black);
   }
 }
-header .container nav .menu img {
-  cursor: pointer;
-}
-header .container nav input {
-  appearance: none;
-}
-@media (min-width: 1201px) {
-  header nav .menu {
+
+@media (min-width: 992px) {
+  header nav img {
     display: none;
   }
+
 }
