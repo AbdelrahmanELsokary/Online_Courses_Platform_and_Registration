@@ -38,6 +38,7 @@ a {
 }
 .hero {
   background-image: url(../images/Home_Page/hero.webp);
+  background-attachment: fixed;
   height: calc(100vh - 104px);
   background-repeat: no-repeat;
   background-size: cover;
