@@ -95,13 +95,18 @@ header .container nav ul li .search input::placeholder {
   font-family: "Roboto", sans-serif;
   color: var(--black-0);
 }
+header .container nav img{
+  cursor: pointer;
+}
 @media (max-width: 991px) {
   header .container nav ul {
     display: none;
     position: absolute;
     top: 70px;
     right: 0;
-    padding: 15px;
+    background-color: var(--black-0);
+    border-radius: 30px;
+    padding: 10px;
   }
   header .container nav ul.menu_open {
     display: block;
@@ -128,7 +133,11 @@ header .container nav ul li .search input::placeholder {
   }
 }
 @media (min-width: 992px) {
-  header nav img {
+  header nav img:first-child  {
     display: none;
   }
+}
+header nav img:nth-of-type(2){
+  width: 37px;
+  margin-left: 20px;
 }

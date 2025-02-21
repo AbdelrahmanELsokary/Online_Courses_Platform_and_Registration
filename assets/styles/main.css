@@ -36,10 +36,14 @@ a {
   text-decoration: none;
   text-transform: capitalize;
 }
+body.dark_mode{
+  background-color: var(--black-1);
+  color: #dbdbdb;
+}
 .hero {
   background-image: url(../images/Home_Page/hero.webp);
   background-attachment: fixed;
-  height: calc(100vh - 104px);
+  height: 100vh ;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -186,6 +190,7 @@ footer .container .products .subscribe .submit {
 footer .container .copyright {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 100px 0 20px 0;
 }
 footer .container .copyright p {
